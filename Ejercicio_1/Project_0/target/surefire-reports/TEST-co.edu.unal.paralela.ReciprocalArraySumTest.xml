@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="co.edu.unal.paralela.ReciprocalArraySumTest" time="41.568" tests="4" errors="0" skipped="0" failures="1">
+<testsuite name="co.edu.unal.paralela.ReciprocalArraySumTest" time="43.243" tests="4" errors="0" skipped="0" failures="1">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="java.vm.version" value="25.0.3+9-LTS-195"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-25.0.3\bin"/>
-    <property name="maven.multiModuleProjectDirectory" value="C:\Users\juanp\Desktop\Paralela\Ejercicio_1\Project_0"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\Users\juanp\Desktop\Ejercicios_computacion_paralela_unal_2026\Ejercicio_1\Project_0"/>
     <property name="java.vm.vendor" value="Oracle Corporation"/>
     <property name="java.vendor.url" value="https://java.oracle.com/"/>
     <property name="guice.disable.misplaced.annotation.check" value="true"/>
@@ -16,7 +16,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="stdin.encoding" value="cp850"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
-    <property name="user.dir" value="C:\Users\juanp\Desktop\Paralela\Ejercicio_1\Project_0"/>
+    <property name="user.dir" value="C:\Users\juanp\Desktop\Ejercicios_computacion_paralela_unal_2026\Ejercicio_1\Project_0"/>
     <property name="java.vm.compressedOopsMode" value="Zero based"/>
     <property name="java.runtime.version" value="25.0.3+9-LTS-195"/>
     <property name="os.arch" value="amd64"/>
@@ -30,7 +30,7 @@
     <property name="classworlds.conf" value="C:\Program Files\Maven\apache-maven-3.9.16\bin\m2.conf"/>
     <property name="sun.jnu.encoding" value="Cp1252"/>
     <property name="stdout.encoding" value="cp850"/>
-    <property name="java.library.path" value="C:\Program Files\Java\jdk-25.0.3\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;c:\Users\juanp\AppData\Roaming\Code\User\globalStorage\github.copilot-chat\debugCommand;c:\Users\juanp\AppData\Roaming\Code\User\globalStorage\github.copilot-chat\copilotCli;C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Docker\Docker\resources\bin;C:\Program Files\Git\cmd;C:\Program Files\NVIDIA Corporation\NVIDIA App\NvDLISR;C:\Program Files\nodejs\;C:\Program Files\Sunshine;C:\Program Files\Sunshine\tools;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Maven\apache-maven-3.9.16\bin;C:\Users\juanp\AppData\Local\Programs\Python\Python311\Scripts\;C:\Users\juanp\AppData\Local\Programs\Python\Python311\;C:\Users\juanp\AppData\Local\pnpm\bin;C:\Users\juanp\AppData\Local\Microsoft\WindowsApps;C:\Users\juanp\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\juanp\AppData\Roaming\npm;C:\Users\juanp\AppData\Local\Microsoft\WinGet\Packages\Xenia.Xenia_Microsoft.Winget.Source_8wekyb3d8bbwe;C:\Users\juanp\AppData\Local\Microsoft\WinGet\Packages\Xenia.XeniaCanary_Microsoft.Winget.Source_8wekyb3d8bbwe;C:\Users\juanp\AppData\Local\Microsoft\WinGet\Packages\Gyan.FFmpeg_Microsoft.Winget.Source_8wekyb3d8bbwe\ffmpeg-8.1.2-full_build\bin;C:\Program Files\Processing\;c:\Users\juanp\.vscode\extensions\vscjava.vscode-java-debug-0.59.0\bundled\scripts\noConfigScripts;."/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-25.0.3\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Docker\Docker\resources\bin;C:\Program Files\Git\cmd;C:\Program Files\NVIDIA Corporation\NVIDIA App\NvDLISR;C:\Program Files\nodejs\;C:\Program Files\Sunshine;C:\Program Files\Sunshine\tools;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Maven\apache-maven-3.9.16\bin;C:\Users\juanp\AppData\Local\Programs\Python\Python311\Scripts\;C:\Users\juanp\AppData\Local\Programs\Python\Python311\;C:\Users\juanp\AppData\Local\pnpm\bin;C:\Users\juanp\AppData\Local\Microsoft\WindowsApps;C:\Users\juanp\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\juanp\AppData\Roaming\npm;C:\Users\juanp\AppData\Local\Microsoft\WinGet\Packages\Xenia.Xenia_Microsoft.Winget.Source_8wekyb3d8bbwe;C:\Users\juanp\AppData\Local\Microsoft\WinGet\Packages\Xenia.XeniaCanary_Microsoft.Winget.Source_8wekyb3d8bbwe;C:\Users\juanp\AppData\Local\Microsoft\WinGet\Packages\Gyan.FFmpeg_Microsoft.Winget.Source_8wekyb3d8bbwe\ffmpeg-8.1.2-full_build\bin;C:\Program Files\Processing\;."/>
     <property name="maven.conf" value="C:\Program Files\Maven\apache-maven-3.9.16/conf"/>
     <property name="jdk.debug" value="release"/>
     <property name="java.class.version" value="69.0"/>
@@ -46,7 +46,7 @@
     <property name="java.class.path" value="C:\Program Files\Maven\apache-maven-3.9.16\boot\plexus-classworlds-2.11.0.jar"/>
     <property name="java.vm.specification.version" value="25"/>
     <property name="sun.arch.data.model" value="64"/>
-    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher package"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher test"/>
     <property name="java.home" value="C:\Program Files\Java\jdk-25.0.3"/>
     <property name="user.language" value="es"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
@@ -62,14 +62,14 @@
     <property name="sun.cpu.endian" value="little"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase name="testParSimpleTwoHundredMillion" classname="co.edu.unal.paralela.ReciprocalArraySumTest" time="22.777"/>
-  <testcase name="testParManyTaskTwoHundredMillion" classname="co.edu.unal.paralela.ReciprocalArraySumTest" time="18.362">
-    <failure message="Se esperaba que la implmentación de muchas tareas en paralelo pudiera ejecutarse  9,600000x veces más rápido, pero solo alcanzo a mejorar la rapidez (speedup) 4,489796x veces" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: Se esperaba que la implmentación de muchas tareas en paralelo pudiera ejecutarse  9,600000x veces más rápido, pero solo alcanzo a mejorar la rapidez (speedup) 4,489796x veces
+  <testcase name="testParSimpleTwoHundredMillion" classname="co.edu.unal.paralela.ReciprocalArraySumTest" time="23.186"/>
+  <testcase name="testParSimpleTwoMillion" classname="co.edu.unal.paralela.ReciprocalArraySumTest" time="0.256"/>
+  <testcase name="testParManyTaskTwoMillion" classname="co.edu.unal.paralela.ReciprocalArraySumTest" time="0.194"/>
+  <testcase name="testParManyTaskTwoHundredMillion" classname="co.edu.unal.paralela.ReciprocalArraySumTest" time="19.607">
+    <failure message="Se esperaba que la implmentación de muchas tareas en paralelo pudiera ejecutarse  9,600000x veces más rápido, pero solo alcanzo a mejorar la rapidez (speedup) 3,571429x veces" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: Se esperaba que la implmentación de muchas tareas en paralelo pudiera ejecutarse  9,600000x veces más rápido, pero solo alcanzo a mejorar la rapidez (speedup) 3,571429x veces
 	at junit.framework.Assert.fail(Assert.java:47)
 	at junit.framework.Assert.assertTrue(Assert.java:20)
 	at co.edu.unal.paralela.ReciprocalArraySumTest.testParManyTaskTwoHundredMillion(ReciprocalArraySumTest.java:149)
 </failure>
   </testcase>
-  <testcase name="testParSimpleTwoMillion" classname="co.edu.unal.paralela.ReciprocalArraySumTest" time="0.247"/>
-  <testcase name="testParManyTaskTwoMillion" classname="co.edu.unal.paralela.ReciprocalArraySumTest" time="0.182"/>
 </testsuite>

@@ -130,7 +130,7 @@ public final class ReciprocalArraySum {
 
         @Override
         protected void compute() {
-            // HECHO: Sumar los recíprocos secuencialmente dentro del rango asignado a esta tarea
+            
             value = 0.0;
             for (int i = startIndexInclusive; i < endIndexExclusive; i++) {
                 value += 1.0 / input[i];
@@ -189,9 +189,7 @@ public final class ReciprocalArraySum {
             tasks.add(task);
         }
 
-        // Metodo 1
         ForkJoinTask.invokeAll(tasks);
-        
 
         for (ReciprocalArraySumTask task : tasks) {
             sum += task.getValue();
