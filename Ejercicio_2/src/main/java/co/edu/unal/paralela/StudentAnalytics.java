@@ -41,8 +41,7 @@ public final class StudentAnalytics {
      * @param studentArray Datos del estudiante para esta clase.
      * @return Edad promedio de los estudiantes registrados
      */
-    public double averageAgeOfEnrolledStudentsParallelStream(
-            final Student[] studentArray) {
+    public double averageAgeOfEnrolledStudentsParallelStream(final Student[] studentArray) {
         return Arrays.stream(studentArray)
                 .parallel()
                 .filter(Student::checkIsCurrent)
