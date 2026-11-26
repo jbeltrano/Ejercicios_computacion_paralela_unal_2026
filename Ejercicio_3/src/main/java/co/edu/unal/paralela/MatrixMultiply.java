@@ -43,13 +43,6 @@ public final class MatrixMultiply {
     public static void parMatrixMultiply(final double[][] A, final double[][] B,
             final double[][] C, final int N) {
 
-        forallChunked(0, N - 1, (i) -> {
-            for (int j = 0; j < N; j++) C[i][j] = 0.0;
-            for (int k = 0; k < N; k++) {
-                final double aik = A[i][k];
-                for (int j = 0; j < N; j++) C[i][j] += aik * B[k][j];
-            }
-        });
         // forall(0, N - 1, (i) -> {
         //     for (int j = 0; j < N; j++) {
         //         C[i][j] = 0.0;
@@ -58,5 +51,12 @@ public final class MatrixMultiply {
         //         }
         //     }
         // });
+
+        forall(0, N - 1, (i) -> {
+            for (int j = 0; j < N; j++) C[i][j] = 0.0;
+            for (int k = 0; k < N; k++) {
+                for (int j = 0; j < N; j++) C[i][j] += A[i][k] * B[k][j];
+            }
+        });
     }
 }
